@@ -1,0 +1,12 @@
+database = Concessionario
+tabella = auto
+
+Marca               |   varchar     | notnull  unique
+Nome                |   varchar     | notnull
+Modello             |   mediumint   | notnull
+Cilindrata          |   bigint      | notnull
+Costo               |   bigint      | notnull
+altezza             |   float       | null
+data_produzione     |   data        | null
+codice_telaio       |   mediumint   | notnull   unique
+targa               |   varchar     | notnull   unique
